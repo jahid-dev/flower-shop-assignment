@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+/* First section for Banner */
+
+.banner {
+  background-color: #e554731a;
+  display: flex;
+  justify-content: space-around;
+  height: 650px;
+  padding-top: 30px;
+}
+.banner-title {
+  color: #272727;
+  padding: 100px 0px 500px 60px ;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-title-subtext {
+  color: #272727;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 15px;
+  color: #ffffff;
+  border: 5px solid #e55473;
+  background: #e55473;
+  display: inline-flex;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+/* Featured Flowers */
+
+.featured-flowers{
+   margin: 80px;
+   text-align: center; 
+}
+.featured-paragraph{
+    margin: 30px;
+    text-align: center;
+    color: #27272799; 
+ }
+ .featured-image{
+    justify-content: center;
+ }
+#PinkFlower1{
+    
+    
+}
