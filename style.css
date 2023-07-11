@@ -282,13 +282,14 @@ input,
 select {
   width: 100%;
   padding: 10px;
-  border: 2px solid #f19797;
+  border: 1px solid #f19797;
+  border-radius: 2px;
   margin-bottom: 10px;
 }
 
 .submit {
   background-color: #000;
-  color: #fff;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -312,7 +313,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #f58e8e;
   opacity: 0.2;
   transition: 0.3s;
 }
