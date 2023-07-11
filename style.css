@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-around;
   height: 650px;
+  width: 100%;
   padding-top: 30px;
 }
 .banner-title {
@@ -20,8 +21,9 @@
   font-weight: 800;
   line-height: normal;
 }
-.banner-title-subtext {
-  color: #272727;
+#banner-title-subtext {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -30,7 +32,7 @@
   margin-bottom: 20px;
 }
 
-.button {
+.Button {
   font-size: 15px;
   border: 5px solid #e55473;
   background: #e55473;
@@ -45,15 +47,27 @@
 }
 
 /* Featured Flowers */
+.featured {
+  color: #272727;
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+}
 
 .featured-flowers {
-  margin: 80px;
+  margin: 120px;
+  padding: 50px;
   text-align: center;
 }
 .featured-paragraph {
-  margin: 30px;
+  margin: 20px;
   text-align: center;
-  color: #27272799;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .featured-image {
@@ -97,11 +111,177 @@
 }
 .flower {
   color: #272727;
-  margin: 90px;
+  margin: 80px;
   color: #272727;
   text-align: center;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+/* Hot Deal Section */
+.hot-deal {
+  display: flex;
+  background-color: #e554730d;
+  align-items: center;
+  justify-content: space-around;
+  margin: 150px;
+}
+.discount-hot-deal {
+  color: #272727;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  text-align: center;
+  margin: 20px;
+}
+.discount {
+  color: #e55473;
+}
+.hot-deal-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px;
+}
+.Button2 {
+  font-size: 15px;
+  border: 5px solid #e55473;
+  background: #e55473;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-left: 152px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hot-deal-image img {
+  height: 318px;
+  width: auto;
+  margin-right: 120px;
+}
+/* Instagram section */
+.instagram {
+  text-align: center;
+  display: inline;
+}
+.instagram-headline {
+  color: #272727;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.instagram-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px;
+}
+.instagram-image {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-image img {
+  margin: 0 8px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* Latest Deals */
+.latest-deals {
+  height: 350px;
+  background-image: url("./Rectangle\ 9.png");
+  background-size: 1010px 360px;
+  background-repeat: no-repeat;
+  margin-left: 210px;
+  margin-right: 170px;
+  margin-bottom: 200px;
+}
+
+.email {
+  padding-top: 100px;
+  text-align: center;
+  color: #272727;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.hot-deals-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.email-content {
+  margin-top: 30px;
+  border: 10px solid white;
+  border-radius: 5px;
+  width: 500px;
+  padding-inline-end: 450px;
+  justify-content: center;
+  padding: 10px;
+}
+.Button3 {
+  font-size: 15px;
+  border: 5px solid #e55473;
+  background: #e55473;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-left: 152px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+footer {
+  background: #111010;
+  width: 1000px;
+  margin-top: 150px;
+  justify-content: center;
+}
+footer span {
+  color: #e55473;
+}
+.para-footer {
+  color: white;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-paragraph {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
