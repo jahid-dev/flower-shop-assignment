@@ -199,7 +199,7 @@
 /* Latest Deals */
 .latest-deals {
   height: 350px;
-  background-image: url("../Rectangle\ 9.png");
+  background-image: url("./Rectangle9.png");
   background-size: 1010px 360px;
   background-repeat: no-repeat;
   margin-left: 210px;
@@ -251,7 +251,8 @@
 
 footer {
   background: #111010;
-  width: 1000px;
+  position: absolute;
+  width: 100%;
   margin-top: 150px;
   justify-content: center;
 }
@@ -261,20 +262,21 @@ footer span {
 .para-footer {
   color: white;
   font-family: Lato;
-  font-size: 48px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .footer-paragraph {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 15px;
+  margin-top: 20px;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
@@ -284,4 +286,6 @@ footer span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
